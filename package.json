@@ -1,6 +1,6 @@
 {
   "name": "ember-preapp-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Request a payload before your Ember app has loaded.",
   "directories": {
     "doc": "doc",

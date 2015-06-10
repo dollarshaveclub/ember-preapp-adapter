@@ -20,10 +20,13 @@ export default Ember.Mixin.create({
 
     // Grab our global objects as well as our type.
     var typeKey = opts.arguments[1].typeKey;
-    var request =  window.__ds_adapter_preapp_request[typeKey];
+    var request;
 
     // Delete the key so no subsequent calls to `find` use it.
-    delete window.__ds_adapter_preapp_request[typeKey];
+    if (window.__ds_adapter_preapp_request)  {
+      request = window.__ds_adapter_preapp_request[typeKey];
+      delete window.__ds_adapter_preapp_request[typeKey];
+    }
 
     // If no request exists, use super and call it a day.
     if ( !request ) {
