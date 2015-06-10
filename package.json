@@ -1,7 +1,7 @@
 {
   "name": "ember-preapp-adapter",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Request a payload before your Ember app has loaded.",
   "directories": {
     "doc": "doc",
     "test": "tests"

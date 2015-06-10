@@ -1,0 +1,1 @@
+export { default } from 'ember-preapp-adapter/adapters/application';
