@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Mixin.create({
 
-  find: function () {
+  findRecord: function () {
     return this.preAppFind({
       arguments: arguments,
       super: this._super
