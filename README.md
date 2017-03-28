@@ -1,5 +1,7 @@
 # Ember-preapp-adapter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/ember-preapp-adapter.svg)](https://greenkeeper.io/)
+
 ## Usage
 
 Stay tuned.
